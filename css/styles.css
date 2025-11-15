@@ -485,13 +485,15 @@ margin-bottom: 16px;
  align-items: center;
  justify-content: center;
  flex-direction: row;
- gap: 16px;
  border-radius: 4px;
  padding-block: 8px;
  padding-inline: 24px;
- width: 165px;
+ line-height: 1.5;
+ min-width: 165px;
  height: 40px;
  background-color: #4d5ae5;
+ border: none;
+ cursor: pointer;
  color:#fff;
  font-weight: 500;
  letter-spacing: 0.04em;
@@ -502,6 +504,10 @@ margin-bottom: 16px;
 .button-footer:hover,
 .button-footer:focus {
   background-color:#404bbf;
+}
+
+.icon-soc {
+  margin-left: 16px; 
 }
 
 /*backdrop*/
