@@ -454,6 +454,10 @@ height: 104px;
   align-items: center;
 }
 
+.icon-subscribe {
+   margin-left: 16px; 
+}
+
 
 .footer-container-form-subscribe {
   flex-direction: column;
