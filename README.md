@@ -8,3 +8,7 @@ homework5
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
+
+.icon-soc {
+  margin-left: 16px;  
+}
