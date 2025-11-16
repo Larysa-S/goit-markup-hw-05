@@ -640,17 +640,16 @@ letter-spacing: 0.02em;
   border-radius: 4px;
   width: 100%;
   height: 120px;
-  padding: 8px 16px;  
-  resize: none;
-  outline: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
-}
-
-.comment-textarea::placeholder {
+  padding: 8px 16px; 
+  outline: transparent;
+  line-height: 1.17; 
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  resize: none;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .comment-textarea:focus {
@@ -667,6 +666,7 @@ letter-spacing: 0.02em;
  font-size: 12px;
  letter-spacing: 0.04em;
  color: #8e8f99;
+ line-height: 1.17;
 }
 
 .custom-checkbox {
@@ -680,7 +680,9 @@ letter-spacing: 0.02em;
   height: 16px;
   cursor: pointer;
   fill: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .policy-checkbox:checked + .checkbox-text>.custom-checkbox {
@@ -690,7 +692,7 @@ letter-spacing: 0.02em;
 }
 
 .form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 24px;
   margin-top: 17px;
 }
 
