@@ -659,6 +659,7 @@ letter-spacing: 0.02em;
 
 .privacy-policy {
   text-decoration: underline;
+  color:#4d5ae5;
 }
 
 .checkbox-text {
@@ -684,8 +685,8 @@ letter-spacing: 0.02em;
 
 .policy-checkbox:checked + .checkbox-text>.custom-checkbox {
   background-color: #404bbf;
-  border-color: #404bbf;
-  fill:#f4f4fd;  
+  fill:#f4f4fd; 
+  border: none; 
 }
 
 .form-field-wrapper {
